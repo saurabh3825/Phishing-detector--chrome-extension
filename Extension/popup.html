@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phishing Detector</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      width: 280px;
+      padding: 15px;
+      text-align: center;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    #result {
+      font-size: 16px;
+      margin-top: 15px;
+      font-weight: bold;
+      padding: 10px;
+      border-radius: 6px;
+    }
+    .safe {
+      color: green;
+      border: 2px solid green;
+      background-color: #e6ffe6;
+    }
+    .phishing {
+      color: red;
+      border: 2px solid red;
+      background-color: #ffe6e6;
+    }
+    .loading {
+      color: #666;
+    }
+  </style>
+</head>
+<body>
+  <h2>🔍 Phishing Detector</h2>
+  <div id="status">Checking current site...</div>
+  <div id="result"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
